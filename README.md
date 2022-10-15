@@ -13,3 +13,4 @@
 7. Add loging with Fluentd - https://www.cncf.io/projects/fluentd/
 8. Add monitoring with Prometheus - https://www.cncf.io/projects/prometheus/
 
+Make 3-5 pages of docs.
