@@ -26,3 +26,5 @@ Make 3-5 pages of docs.
 7. check http://localhost:3000
 8. cd k8s & kubectl apply -f .\devops-tech-project-depl.yaml
 9. kubectl get pods - will give you active pods created
+10. kubectl get deployments - will give you the deployments from the yaml file
+11. kubectl get service - will give you the services, here is the react app stored
