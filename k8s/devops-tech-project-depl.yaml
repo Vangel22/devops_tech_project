@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-tech-project
+  labels:
+    app: devops-tech
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-tech
+  template:
+    metadata:
+      labels:
+        app: devops-tech
+    spec:
+      containers:
+      - name: devops-tech
+        image: vangel22/cicd-proj:latest
+        ports:
+        - containerPort: 3000
