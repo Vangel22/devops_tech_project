@@ -15,8 +15,15 @@ spec:
         app: devops-tech
     spec:
       containers:
-      - name: devops-tech
+      - name: devops-tech-cont
         image: vangel22/cicd-proj:latest
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: "1"
+        requests:
+          memory: 256Mi
+          cpu: "0.2"
 ---
 apiVersion: v1
 kind: Service
