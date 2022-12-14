@@ -9,9 +9,6 @@
 4. CI/CD pipeline with Github Actions, Jenkins or Gitlab CI.
 5. Step 4 will create new Docker image and will put the new Helm version to Kubernetes.
 
-Make 3-5 pages of docs.
-
-
 # Starting it up
 1. git clone
 2. navigate inside devops_tech_project
