@@ -8,7 +8,6 @@
 3. Helm packages for all of the above
 4. CI/CD pipeline with Github Actions, Jenkins or Gitlab CI.
 5. Step 4 will create new Docker image and will put the new Helm version to Kubernetes.
-6. Add monitoring with Prometheus - https://www.cncf.io/projects/prometheus/
 
 Make 3-5 pages of docs.
 
