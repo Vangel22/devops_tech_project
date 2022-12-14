@@ -27,3 +27,5 @@ Make 3-5 pages of docs.
 10. kubectl get deployments - will give you the deployments from the yaml file
 11. kubectl get service - will give you the services, here is the react app stored
 12. helm create project-helm-chart - creates a helm chart
+13. helm install devops-project-chart project-helm-chart/ --values project-helm-chart/values.yaml
+14. follow the instructions given by the previous commands and you will have url to check your project in the browser
