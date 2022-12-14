@@ -1,16 +1,15 @@
 # Devops Project - Tasks
 
 1. Dockerize a project
-2. Setup a Database
-3. Projects for CNCF
+2. Projects for CNCF
     - Kubernetes - Scheduling and orchestration
     - Prometheus - Monitoring
     - Docker Hub - Container registry
-4. Helm packages for all of the above
-5. CI/CD pipeline with Github Actions, Jenkins or Gitlab CI.
-6. Step 5 will create new Docker image and will put the new Helm version to Kubernetes.
-7. Add loging with Fluentd - https://www.cncf.io/projects/fluentd/
-8. Add monitoring with Prometheus - https://www.cncf.io/projects/prometheus/
+3. Helm packages for all of the above
+4. CI/CD pipeline with Github Actions, Jenkins or Gitlab CI.
+5. Step 4 will create new Docker image and will put the new Helm version to Kubernetes.
+6. Add loging with Fluentd - https://www.cncf.io/projects/fluentd/
+7. Add monitoring with Prometheus - https://www.cncf.io/projects/prometheus/
 
 Make 3-5 pages of docs.
 
@@ -27,3 +26,4 @@ Make 3-5 pages of docs.
 9. kubectl get pods - will give you active pods created
 10. kubectl get deployments - will give you the deployments from the yaml file
 11. kubectl get service - will give you the services, here is the react app stored
+12. helm create project-helm-chart - creates a helm chart
