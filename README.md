@@ -3,7 +3,6 @@
 1. Dockerize a project
 2. Projects for CNCF
     - Kubernetes - Scheduling and orchestration
-    - Prometheus - Monitoring
     - Docker Hub - Container registry
 3. Helm packages for all of the above
 4. CI/CD pipeline with Github Actions, Jenkins or Gitlab CI.
@@ -15,7 +14,7 @@
 3. npm install
 4. npm start - will start the application locally
 5. docker build -t devops-tech-project-local .
-6. docker run -d devopps-tech-project-local
+6. docker run -d devops-tech-project-local
 7. check http://localhost:3000
 8. cd k8s & kubectl apply -f .\devops-tech-project-depl.yaml
 9. kubectl get pods - will give you active pods created
